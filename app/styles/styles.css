@@ -2,6 +2,7 @@
   --white: #fff;
   --dark: #000;
   --grey: #f2f2f2;
+  --blue: blue;
 }
 
 * {
@@ -71,10 +72,12 @@
 @media (max-width: 900px) {
   .container .logo_section_container .logo_section_content {
     width: 600px;
+    height: 450px;
   }
 }
 @media (max-width: 700px) {
   .container .logo_section_container .logo_section_content {
+    height: 500px;
     width: 450px;
   }
 }
@@ -167,6 +170,36 @@
 }
 @media (max-width: 500px) {
   .container .logo_section_container .logo_section_content .logo_section_buttons button {
+    font-size: 12px;
+  }
+}
+.container .logo_section_container .logo_section_content .logo_section_text {
+  text-align: center;
+  margin-top: 30px;
+}
+@media (max-width: 800px) {
+  .container .logo_section_container .logo_section_content .logo_section_text p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 600px) {
+  .container .logo_section_container .logo_section_content .logo_section_text p {
+    font-size: 12px;
+  }
+}
+.container .logo_section_container .logo_section_content .logo_section_text p span {
+  cursor: pointer;
+  color: var(--blue);
+  margin: 0 5px;
+  font-size: 16px;
+}
+@media (max-width: 800px) {
+  .container .logo_section_container .logo_section_content .logo_section_text p span {
+    font-size: 13px;
+  }
+}
+@media (max-width: 600px) {
+  .container .logo_section_container .logo_section_content .logo_section_text p span {
     font-size: 12px;
   }
 }
